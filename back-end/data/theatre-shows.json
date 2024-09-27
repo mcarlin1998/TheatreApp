@@ -14325,229 +14325,6 @@
     "season": null
   },
   {
-    "id": "111445502",
-    "title": "The Comedy Of Errors",
-    "short_title": "",
-    "search_title": "Comedy Of Errors, The",
-    "excerpt": "Back by popular demand, get ready to experience this acclaimed production of The Comedy of Errors as it makes a triumphant return to The Globe this summer.",
-    "url": "https://officiallondontheatre.com/show/the-comedy-of-errors-111445502",
-    "image": "http://res.cloudinary.com/solt/image/upload/v1719487450/Globe_Comedy-of-Errors_SEE_AW_1200_x_600_cf9a9p.jpg",
-    "duration": "1h45, no interval",
-    "booking_until": "",
-    "performance_exclusion_days": [],
-    "matinee_override_message": "",
-    "see_tickets": "",
-    "promotion_urls_see_tickets": [],
-    "see_tickets_url_infos": [],
-    "parts": [],
-    "genres": [
-      {
-        "id": 1770,
-        "name": "Comedy"
-      },
-      {
-        "id": 1771,
-        "name": "Drama"
-      }
-    ],
-    "showTypes": [],
-    "kids_week": [],
-    "kids_week_activities": [],
-    "kids_week_is_activities_only": null,
-    "kids_week_activities_22": [],
-    "previews_from": "",
-    "opening_night": "2024-08-21",
-    "closing_night": "2024-10-27",
-    "homepage_featured_show": 0,
-    "excluded_from_nys_presale": false,
-    "include_nys_extention": false,
-    "pinned_on": [],
-    "new_to_olt": false,
-    "calendar_off": false,
-    "show_of_the_week": false,
-    "show_onsale_info": {
-      "onsale_datetime": "2024-06-27 11:18:00+00:00",
-      "silverpop_database_id": "",
-      "message_before_onsale": "",
-      "message_after_onsale": ""
-    },
-    "synopsis": "Back by popular demand, get ready to experience this acclaimed production of The Comedy of Errors as it makes a triumphant return to The Globe this summer.",
-    "minimum_admission_age": "",
-    "age_recommendation": "",
-    "advisory_content": "The play contains themes of misogyny, racism and offensive language. ",
-    "duration_time": "",
-    "olivier_nominated": false,
-    "olivier_winner": false,
-    "mothballed": false,
-    "accessOnly": false,
-    "notClosed": true,
-    "walls_enabled": "",
-    "walls_data_title": "",
-    "walls_data_url": "",
-    "walls_open": "",
-    "walls_closed": "",
-    "currentlyOpen": true,
-    "isReopening": false,
-    "notOfficiallyReopening": false,
-    "hideBookingUntil": false,
-    "onSaleSoonGrid": false,
-    "hideReopening": false,
-    "hidePerformanceDate": false,
-    "hideOpeningDate": false,
-    "hideFromKidsWeekGrid": false,
-    "externalUrl": "",
-    "social_distancing": false,
-    "social_distancing_start": false,
-    "social_distancing_end": false,
-    "social_distancing_tooltip": "All shows with performances until 19 July will be required to seat audiences socially distanced. This might be achieved through visible seating 'bubbles' when you book or via an algorithm that automatically adjusts available seats after bookings are made. In line with the government roadmap, theatres may be allowed to run at a fuller capacity from 19 July. Please be aware that when social distances measures are eased, other ticketholders may be seated nearer to or directly next to your group.",
-    "widgetTooltip": "",
-    "hide_from_tokens_feed": "0",
-    "venue": {
-      "id": 406260,
-      "title": "Shakespeare's Globe",
-      "image": "https://res.cloudinary.com/solt/image/upload/v1508345283/Shakespeare_s_Globe_London_yrloui.jpg",
-      "link": "https://officiallondontheatre.com/venue/shakespeares-globe/",
-      "see_it_safely_approved": false,
-      "address": {
-        "street_address": {
-          "address_line_1": "21 New Globe Walk Bankside",
-          "postal_town": "London",
-          "country": "United Kingdom",
-          "postal_code": "SE1 9DT"
-        },
-        "lat_lng": {
-          "lat": "51.508342",
-          "lng": "-0.096984"
-        },
-        "place_id": "ChIJ70dbCqkEdkgR_2rXCHnP0aQ"
-      }
-    },
-    "schedule": [
-      {
-        "performance_type": [
-          "relaxed"
-        ],
-        "time": "2024-09-03 14:00",
-        "touch_tour": null,
-        "prices": "£5-£75",
-        "service_provider": "",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "relaxed"
-        ],
-        "time": "2024-09-18 19:30",
-        "touch_tour": null,
-        "prices": "£5-£75",
-        "service_provider": "",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "captioned"
-        ],
-        "time": "2024-09-04 19:30",
-        "touch_tour": null,
-        "prices": "£5-£75",
-        "service_provider": "Captioning provided by Stagetext.",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "captioned"
-        ],
-        "time": "2024-10-16 19:30",
-        "touch_tour": null,
-        "prices": "£5-£75",
-        "service_provider": "Captioning provided by Stagetext.",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "audio"
-        ],
-        "time": "2024-09-21 14:00",
-        "touch_tour": "12:00",
-        "prices": "£5-£75",
-        "service_provider": "Audio description provided by Hear The Picture.",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "audio"
-        ],
-        "time": "2024-11-27 14:00",
-        "touch_tour": "17:30",
-        "prices": "£5-£75",
-        "service_provider": "Audio description provided by Hear The Picture.",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "signed"
-        ],
-        "time": "2024-10-13 14:00",
-        "touch_tour": null,
-        "prices": "£5-£75",
-        "service_provider": "Sign language interpretation provided by Taz Hockaday.",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      },
-      {
-        "performance_type": [
-          "signed"
-        ],
-        "time": "2024-10-16 19:30",
-        "touch_tour": null,
-        "prices": "£5-£75",
-        "service_provider": "Sign language interpretation provided by Taz Hockaday.",
-        "access_tel": "020 7401 9919",
-        "phone_call_charges": "",
-        "access_email": "access@shakespearesglobe.com",
-        "kw_access": false,
-        "nys_access": null,
-        "custom_description": null
-      }
-    ],
-    "linked_venues": [],
-    "season": null
-  },
-  {
     "id": "111445507",
     "title": "What We Talk About When We Talk About Anne Frank",
     "short_title": "",
@@ -26846,6 +26623,119 @@
           "lng": "-0.22824758624740532"
         },
         "place_id": "ChIJJacpy7YPdkgRyp8qRYjYmps"
+      }
+    },
+    "schedule": [],
+    "linked_venues": [],
+    "season": null
+  },
+  {
+    "id": "111446438",
+    "title": "Barbra & Liza Live",
+    "short_title": "Barbra & Liza Live",
+    "search_title": "Barbra & Liza Live",
+    "excerpt": "Barbra’s back….and this time she’s brought a friend! Barbra & Liza Live starring Steven Brinberg as Barbra Streisand and Rick Skye as Liza Minnelli.",
+    "url": "https://officiallondontheatre.com/show/barbra-liza-live-111446438",
+    "image": "http://res.cloudinary.com/solt/image/upload/v1727445206/1200X600_gkhbdk.png",
+    "duration": "TBC",
+    "booking_until": "",
+    "performance_exclusion_days": [],
+    "matinee_override_message": "",
+    "see_tickets": "",
+    "promotion_urls_see_tickets": [],
+    "see_tickets_url_infos": [
+      {
+        "url_type": "olt",
+        "url": "https://officiallondontheatre.seetickets.com/e/tour/barbra-liza-live/1483",
+        "hash": "cae37076ccad74e1ed5eab93380dcab1"
+      },
+      {
+        "url_type": "olt",
+        "url": "https://tktsbooth.seetickets.com/e/tour/barbra-liza-live/1483",
+        "hash": "bc43cfe9d31cde317c6a0c1cd442f1ce"
+      }
+    ],
+    "parts": [],
+    "genres": [
+      {
+        "id": 42,
+        "name": "Entertainment"
+      },
+      {
+        "id": 54,
+        "name": "Musical"
+      }
+    ],
+    "showTypes": [],
+    "kids_week": [],
+    "kids_week_activities": [],
+    "kids_week_is_activities_only": null,
+    "kids_week_activities_22": [],
+    "previews_from": "",
+    "opening_night": "2024-11-06",
+    "closing_night": "2024-11-17",
+    "homepage_featured_show": 0,
+    "excluded_from_nys_presale": false,
+    "include_nys_extention": false,
+    "pinned_on": [],
+    "new_to_olt": true,
+    "calendar_off": false,
+    "show_of_the_week": false,
+    "show_onsale_info": {
+      "onsale_datetime": "2024-09-26 23:00:00+00:00",
+      "silverpop_database_id": "",
+      "message_before_onsale": "",
+      "message_after_onsale": ""
+    },
+    "synopsis": "Barbra’s back….and this time she’s brought a friend! Barbra & Liza Live starring Steven Brinberg as Barbra Streisand and Rick Skye as Liza Minnelli.",
+    "minimum_admission_age": "",
+    "age_recommendation": "TBC",
+    "advisory_content": "",
+    "duration_time": "",
+    "olivier_nominated": false,
+    "olivier_winner": false,
+    "mothballed": false,
+    "accessOnly": false,
+    "notClosed": true,
+    "walls_enabled": "",
+    "walls_data_title": "",
+    "walls_data_url": "",
+    "walls_open": "",
+    "walls_closed": "",
+    "currentlyOpen": false,
+    "isReopening": true,
+    "notOfficiallyReopening": false,
+    "hideBookingUntil": false,
+    "onSaleSoonGrid": false,
+    "hideReopening": false,
+    "hidePerformanceDate": false,
+    "hideOpeningDate": false,
+    "hideFromKidsWeekGrid": false,
+    "externalUrl": "",
+    "social_distancing": false,
+    "social_distancing_start": false,
+    "social_distancing_end": false,
+    "social_distancing_tooltip": "All shows with performances until 19 July will be required to seat audiences socially distanced. This might be achieved through visible seating 'bubbles' when you book or via an algorithm that automatically adjusts available seats after bookings are made. In line with the government roadmap, theatres may be allowed to run at a fuller capacity from 19 July. Please be aware that when social distances measures are eased, other ticketholders may be seated nearer to or directly next to your group.",
+    "widgetTooltip": "",
+    "hide_from_tokens_feed": "1",
+    "venue": {
+      "id": 72902,
+      "title": "Charing Cross Theatre",
+      "image": false,
+      "link": "https://officiallondontheatre.com/venue/charing-cross-theatre/",
+      "see_it_safely_approved": false,
+      "address": {
+        "street_address": {
+          "address_line_1": "Villiers St",
+          "postal_town": "London",
+          "country": "United Kingdom",
+          "postal_code": "WC2N 6NL"
+        },
+        "lat_lng": {
+          "lat": "51.5080265",
+          "lng": "-0.1241209"
+        },
+        "place_id": "ChIJ8aEpxc4EdkgR7_DObwfktsM"
       }
     },
     "schedule": [],

@@ -26651,13 +26651,13 @@
     "see_tickets_url_infos": [
       {
         "url_type": "olt",
-        "url": "https://officiallondontheatre.seetickets.com/lu/tour/theatre-calendar/lucy-beaumont-live/162/1",
-        "hash": "f4e477e9dd1af3982a6637c27f4eae88"
+        "url": "https://officiallondontheatre.seetickets.com/lu/tour/lucy-beaumont-live/162",
+        "hash": "0576407023ab5988d48ead4570c1660a"
       },
       {
         "url_type": "olt",
-        "url": "https://tktsbooth.seetickets.com/lu/tour/theatre-calendar/lucy-beaumont-live/162/1",
-        "hash": "65ae0537e21bcb94173ec494c19843f1"
+        "url": "https://tktsbooth.seetickets.com/lu/tour/lucy-beaumont-live/162",
+        "hash": "7e4bf12de34ab1f1ac45302d93716430"
       }
     ],
     "parts": [],

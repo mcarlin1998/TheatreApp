@@ -1,11 +1,18 @@
 const express = require("express");
+const scrapeTheatreShows = require("./scraper/scraper");
+const cron = require("node-cron");
 const app = express();
+const PORT = 3000;
 
-app.get("/", (req, res) => {
-  res.send("Hello, Express server!");
+// Set up routes
+// app.use("/api/shows", require("./api/showRoutes.js"));
+
+// Set up cron job to run scraper every 5 minutes
+cron.schedule("*/5 * * * *", () => {
+  scrapeTheatreShows();
 });
 
-const PORT = 3000;
+// Start server
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}/`);
+  console.log(`Server running on http://localhost:${PORT}`);
 });

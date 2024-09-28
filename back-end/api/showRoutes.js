@@ -18,7 +18,15 @@ router.get("/", (req, res) => {
     // Parse the JSON data and send it as the response
     try {
       const theatreShows = JSON.parse(data);
-      res.json(theatreShows);
+      console.log(theatreShows);
+
+      const reducedData = theatreShows.map((show) => ({
+        name: show.title,
+        image: show.image,
+        see_tickets_url_infos: show.see_tickets_url_infos,
+      }));
+
+      res.json(reducedData);
     } catch (parseError) {
       console.error("Error parsing theatre shows data:", parseError);
       res.status(500).json({ message: "Error parsing data" });

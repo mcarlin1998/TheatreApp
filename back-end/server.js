@@ -4,7 +4,13 @@ const cron = require("node-cron");
 const app = express();
 const PORT = 3000;
 const showRoutes = require("./api/showRoutes"); // Import the show routes
+const cors = require("cors");
 
+app.use(
+  cors({
+    origin: "http://localhost:3001",
+  })
+);
 // Set up routes
 app.use(express.json());
 app.use("/api/shows", showRoutes);

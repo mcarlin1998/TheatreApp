@@ -5,6 +5,7 @@ import { ShowData } from "../types";
 
 export default function Home() {
   const [showData, setShowData] = useState<ShowData[] | null>(null);
+  const [showTicketLink, setShowTicketLink] = useState<String | null>(null);
 
   async function getShowData() {
     try {

@@ -18,13 +18,34 @@ router.get("/", (req, res) => {
     // Parse the JSON data and send it as the response
     try {
       const theatreShows = JSON.parse(data);
-      console.log(theatreShows);
+      console.log(theatreShows[0].see_tickets_url_infos);
 
-      const reducedData = theatreShows.map((show) => ({
-        name: show.title,
-        image: show.image,
-        see_tickets_url_infos: show.see_tickets_url_infos,
-      }));
+      const reducedData = theatreShows.map((show) => {
+        const seeTicketsInfo = show.see_tickets_url_infos;
+
+        if (!seeTicketsInfo.length) {
+          return {
+            name: show.title,
+            image: show.image,
+            bookingLink: "SOLD OUT",
+          };
+        }
+
+        const tktsonlineLink = seeTicketsInfo.find((info) =>
+          info.url.includes("tktsonline.seetickets.com")
+        );
+
+        const officialLondonLink = seeTicketsInfo.find((info) =>
+          info.url.includes("officiallondontheatre.seetickets.com")
+        );
+
+        return {
+          name: show.title,
+          image: show.image,
+          bookingLink:
+            tktsonlineLink?.url || officialLondonLink?.url || "SOLD OUT",
+        };
+      });
 
       res.json(reducedData);
     } catch (parseError) {

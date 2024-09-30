@@ -1,7 +1,7 @@
 import { ShowData } from "../../types";
 
-export default function ShowCard(showInfo: ShowData) {
-  const isSoldOut = showInfo.bookingLink === "SOLD OUT";
+export default function ShowCard({ name, image, bookingLink }: ShowData) {
+  const isSoldOut = bookingLink === "SOLD OUT";
 
   return (
     <div
@@ -11,8 +11,8 @@ export default function ShowCard(showInfo: ShowData) {
     >
       <div className="flex-1">
         <img
-          src={showInfo.image}
-          alt={showInfo.name}
+          src={image}
+          alt={name}
           className={`w-full h-full object-cover rounded-t-md ${
             isSoldOut ? "opacity-25" : ""
           }`}
@@ -25,7 +25,7 @@ export default function ShowCard(showInfo: ShowData) {
             isSoldOut ? "text-gray-500 opacity-50" : ""
           }`}
         >
-          {showInfo.name}
+          {name}
         </h1>
         <h3
           className={`text-md font-medium mb-1 text-center ${
@@ -43,7 +43,7 @@ export default function ShowCard(showInfo: ShowData) {
           </h3>
         ) : (
           <a
-            href={`${showInfo.bookingLink}`}
+            href={`${bookingLink}`}
             className="bg-gradient-to-r from-orange-500 to-red-500 text-white text-center py-2 rounded-b-md hover:from-red-500 hover:to-orange-500 transition duration-300 text-md h-full w-full flex items-center justify-center"
             target="_blank"
             rel="noopener noreferrer"

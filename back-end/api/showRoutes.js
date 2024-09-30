@@ -1,4 +1,3 @@
-// api/routes/showRoutes.js
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
@@ -31,6 +30,7 @@ router.get("/", (req, res) => {
           };
         }
 
+        //Search for requested urls in array - handling data manipulation on the backend
         const tktsonlineLink = seeTicketsInfo.find((info) =>
           info.url.includes("tktsonline.seetickets.com")
         );

@@ -1,3 +1,15 @@
+Concessions:
+
+Used TailwindCSS over styled-components or module.css for speed of development.
+
+The backend could be better organised - e.g. the map/find in order to ensure the return of the correct booking link.
+
+The interval inside the useEffect which calls the GET request every 5 minutes - Not too happy with utilising useEffect for this due to constant re-rendering - definitely a way to sync together perfectly so that it knows exactly when a show is sold out.
+
+React Query would of been a good idea for caching data so that it isn't always requesting unchanged data over and over again. UseMemo also a good future idea for optimisation/caching
+
+Better Testing
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

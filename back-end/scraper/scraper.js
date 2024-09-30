@@ -5,7 +5,6 @@ const path = require("path");
 const scrapeTheatreShows = async () => {
   try {
     // Fetch data from the API
-    console.log("hit");
     const response = await axios.get(
       "https://officiallondontheatre.com/wp-json/shows/all-open"
     );
@@ -23,5 +22,4 @@ const scrapeTheatreShows = async () => {
   }
 };
 
-// Export the scraper function
 module.exports = scrapeTheatreShows;

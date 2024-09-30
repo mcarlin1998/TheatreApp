@@ -19600,13 +19600,13 @@
     "see_tickets_url_infos": [
       {
         "url_type": "olt",
-        "url": " https://officiallondontheatre.seetickets.com/s/tour/pins-and-needles/7975",
-        "hash": "32ec9bcb394caf402c2cd6d9683c2003"
+        "url": "https://officiallondontheatre.seetickets.com/s/tour/pins-and-needles/7975",
+        "hash": "91beda2fa3fc9c54b1ddb200d1a2e525"
       },
       {
         "url_type": "olt",
-        "url": " https://tktsbooth.seetickets.com/s/tour/pins-and-needles/7975",
-        "hash": "e6b59ab589b73342429e572687ebef79"
+        "url": "https://tktsbooth.seetickets.com/s/tour/pins-and-needles/7975",
+        "hash": "17f7005025b3fa4ed1e516da211d1c38"
       }
     ],
     "parts": [],

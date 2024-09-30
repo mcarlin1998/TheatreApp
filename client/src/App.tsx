@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App flex items-center justify-center min-h-screen bg-gray-100">
       <Home />
     </div>
   );

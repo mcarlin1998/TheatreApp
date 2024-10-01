@@ -11,8 +11,8 @@ export default function Home() {
     //Fetch request to express server
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:3000/api/shows/");
-      if (!response.ok) {
+      const response = await fetch("http://localhost:3000/apsi/shows/");
+      if (!response || !response.ok) {
         throw new Error(`HTTP error: ${response.status}`);
       }
       const data = await response.json();
@@ -20,7 +20,6 @@ export default function Home() {
       setShowData(data);
       setError(null);
     } catch (err) {
-      console.error("Failed to fetch data", err);
       setError("Failed to fetch data");
     } finally {
       setLoading(false);

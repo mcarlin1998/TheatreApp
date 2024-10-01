@@ -11186,6 +11186,16 @@
         "url_type": "olt",
         "url": "https://tktsbooth.seetickets.com/tt/tour/la-boh-me/2217",
         "hash": "a6caee1c5411d6647d2af58da7b6dde8"
+      },
+      {
+        "url_type": "tkts-online",
+        "url": "https://tktsonline.seetickets.com/tt/tour/la-boheme/2209",
+        "hash": "65130b912730c1e00f1c03f8a3b5b226"
+      },
+      {
+        "url_type": "tkts-online",
+        "url": "https://tktsbooth.seetickets.com/tt/tour/la-boheme/2209",
+        "hash": "2fd40dc6ee29631312d36ed28a239180"
       }
     ],
     "parts": [],
@@ -23948,7 +23958,7 @@
     "excluded_from_nys_presale": false,
     "include_nys_extention": false,
     "pinned_on": [],
-    "new_to_olt": true,
+    "new_to_olt": false,
     "calendar_off": false,
     "show_of_the_week": false,
     "show_onsale_info": {
@@ -24199,8 +24209,8 @@
     "walls_data_url": "",
     "walls_open": "",
     "walls_closed": "",
-    "currentlyOpen": false,
-    "isReopening": true,
+    "currentlyOpen": true,
+    "isReopening": false,
     "notOfficiallyReopening": false,
     "hideBookingUntil": false,
     "onSaleSoonGrid": false,
@@ -25672,6 +25682,122 @@
           "lng": "-0.1315554"
         },
         "place_id": "ChIJCerNntEEdkgREXyOfBHn6fQ"
+      }
+    },
+    "schedule": [],
+    "linked_venues": [],
+    "season": null
+  },
+  {
+    "id": "111446460",
+    "title": "Ghost In Concert",
+    "short_title": "",
+    "search_title": "",
+    "excerpt": "Believe, all over again, as Ghost the Musical returns to the West End for one night only, in a brand new concert version at the Adelphi Theatre.",
+    "url": "https://officiallondontheatre.com/show/ghost-in-concert-111446460",
+    "image": "http://res.cloudinary.com/solt/image/upload/v1727701574/Ghost_in_Concert_d7ao93.jpg",
+    "duration": "TBC",
+    "booking_until": "",
+    "performance_exclusion_days": [
+      "Monday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
+    "matinee_override_message": "",
+    "see_tickets": "",
+    "promotion_urls_see_tickets": [],
+    "see_tickets_url_infos": [
+      {
+        "url_type": "tkts-online",
+        "url": "https://tktsonline.seetickets.com/lu/tour/ghost-in-concert/168",
+        "hash": "d151f40614dc7039569ce50426a49861"
+      },
+      {
+        "url_type": "tkts-online",
+        "url": "https://tktsbooth.seetickets.com/lu/tour/ghost-in-concert/168",
+        "hash": "031b8c976458417696f5f75ec1bea115"
+      }
+    ],
+    "parts": [],
+    "genres": [
+      {
+        "id": 54,
+        "name": "Musical"
+      }
+    ],
+    "showTypes": [],
+    "kids_week": [],
+    "kids_week_activities": [],
+    "kids_week_is_activities_only": null,
+    "kids_week_activities_22": [],
+    "previews_from": "",
+    "opening_night": "2024-10-01",
+    "closing_night": "2024-10-01",
+    "homepage_featured_show": 0,
+    "excluded_from_nys_presale": false,
+    "include_nys_extention": false,
+    "pinned_on": [],
+    "new_to_olt": false,
+    "calendar_off": false,
+    "show_of_the_week": false,
+    "show_onsale_info": {
+      "onsale_datetime": "2024-09-29 23:00:00+00:00",
+      "silverpop_database_id": "",
+      "message_before_onsale": "",
+      "message_after_onsale": ""
+    },
+    "synopsis": "",
+    "minimum_admission_age": "",
+    "age_recommendation": "TBC",
+    "advisory_content": "",
+    "duration_time": "",
+    "olivier_nominated": false,
+    "olivier_winner": false,
+    "mothballed": false,
+    "accessOnly": false,
+    "notClosed": false,
+    "walls_enabled": "",
+    "walls_data_title": "",
+    "walls_data_url": "",
+    "walls_open": "",
+    "walls_closed": "",
+    "currentlyOpen": false,
+    "isReopening": false,
+    "notOfficiallyReopening": false,
+    "hideBookingUntil": false,
+    "onSaleSoonGrid": false,
+    "hideReopening": false,
+    "hidePerformanceDate": false,
+    "hideOpeningDate": false,
+    "hideFromKidsWeekGrid": false,
+    "externalUrl": "",
+    "social_distancing": false,
+    "social_distancing_start": false,
+    "social_distancing_end": false,
+    "social_distancing_tooltip": "All shows with performances until 19 July will be required to seat audiences socially distanced. This might be achieved through visible seating 'bubbles' when you book or via an algorithm that automatically adjusts available seats after bookings are made. In line with the government roadmap, theatres may be allowed to run at a fuller capacity from 19 July. Please be aware that when social distances measures are eased, other ticketholders may be seated nearer to or directly next to your group.",
+    "widgetTooltip": "",
+    "hide_from_tokens_feed": "0",
+    "venue": {
+      "id": 72893,
+      "title": "Adelphi Theatre",
+      "image": "http://res.cloudinary.com/solt/image/upload/v1650643433/ADELPHI_15_gvwgxh.jpg",
+      "link": "https://officiallondontheatre.com/venue/adelphi-theatre/",
+      "see_it_safely_approved": false,
+      "address": {
+        "street_address": {
+          "address_line_1": "",
+          "postal_town": "London",
+          "country": "United Kingdom",
+          "postal_code": "WC2R 0NS"
+        },
+        "lat_lng": {
+          "lat": "51.5100524",
+          "lng": "-0.1228806"
+        },
+        "place_id": "ChIJT1sd_MsEdkgRbRAA3JItLec"
       }
     },
     "schedule": [],

@@ -11,10 +11,12 @@ export default function Home() {
     //Fetch request to express server
     setLoading(true);
     try {
-      const response = await fetch("http://localhost:3000/apsi/shows/");
+      const response = await fetch("http://localhost:3000/api/shows/");
+
       if (!response || !response.ok) {
         throw new Error(`HTTP error: ${response.status}`);
       }
+
       const data = await response.json();
       //State handling
       setShowData(data);
